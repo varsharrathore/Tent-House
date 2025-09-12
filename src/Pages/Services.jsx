@@ -10,7 +10,7 @@ const Services = () => {
             <img
               src="/Pictures/wedding2.jpg"
               className={Styles.imageTag}
-              alt="Image 1"
+              alt="Wedding Tent"
             />
           </div>
 
@@ -47,7 +47,7 @@ const Services = () => {
             <img
               src="/Pictures/marquee tent 2.jpg"
               className={Styles.imageTag}
-              alt="Image 2" />
+              alt="Marquee Tent" />
           </div>
           <div className="col-lg-6 left-paragraph text-left p-4">
             <h2 className="text-warning-emphasis text-center">Marquee Tents </h2>
@@ -58,7 +58,7 @@ const Services = () => {
             <img
               src="/Pictures/marquee tent 2.jpg"
               className={Styles.imageTag}
-              alt="Image 2" />
+              alt="Marquee Tent" />
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Services = () => {
             <img
               src="/Pictures/decor1.jpg"
               className={Styles.imageTag}
-              alt="Image 3" />
+              alt="Lighting and Decor" />
           </div>
           <div className="col-lg-6 right-paragraph text-left p-4">
             <h2 className="text-warning-emphasis text-center">Lighting, Sound and Decor</h2>
@@ -83,7 +83,7 @@ const Services = () => {
             <img
               src="/Pictures/stage2.jpg"
               className={Styles.imageTag}
-              alt="Image 4" />
+              alt="Stage Decor" />
           </div>
           <div className="col-lg-6 left-paragraph text-left p-4">
             <h2 className="text-warning-emphasis text-center">Flooring and Staging</h2>
@@ -98,7 +98,7 @@ const Services = () => {
             <img
               src="/Pictures/stage2.jpg"
               className={Styles.imageTag}
-              alt="Image 4" />
+              alt="Stage Decor" />
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@ const Services = () => {
             <img
               src="/Pictures/chair2.webp"
               className={Styles.imageTag}
-              alt="Image 5" />
+              alt="Table and Chair" />
           </div>
           <div className="col-lg-6 right-paragraph text-left p-4">
             <h2 className="text-warning-emphasis text-center">Table and Chair</h2>
