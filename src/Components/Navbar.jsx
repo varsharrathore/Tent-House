@@ -32,8 +32,9 @@ const Navbar = () => {
             <li className="nav-item dropdown">
               <a
                 className="nav-link text-warning opacity-75 dropdown-toggle"
-                href="#"
+                href="/"
                 role="button"
+                onClick={(e) => e.preventDefault()}
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
@@ -55,8 +56,9 @@ const Navbar = () => {
             <li className="nav-item dropdown">
               <a
                 className="nav-link text-warning opacity-75 dropdown-toggle"
-                href="#"
+                href="/"
                 role="button"
+                onClick={(e) => e.preventDefault()}
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
