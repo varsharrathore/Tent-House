@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
 import Styles from '../Styles/Gallery.module.css';
 
 const Gallery = () => {
