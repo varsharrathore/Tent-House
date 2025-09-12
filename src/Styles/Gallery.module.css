@@ -1,0 +1,53 @@
+.containerB1 {
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+  height: 70vh;
+}
+.display4 {
+    font-family: "Bebas-Neue, Raleway, Montserrat";
+    font-size: 4rem;
+}
+.containerB2 :global(.card) {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.containerB2 :global(.card:hover) {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.imageThumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 70vh;
+  overflow-y: auto;
+  justify-content: center;
+  padding: 5px;
+}
+
+.imageThumbnail {
+  flex: 1 1 calc(50% - 8px); 
+  max-width: calc(50% - 8px);
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.imageThumbnail:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .imageThumbnail {
+    flex: 1 1 100%; /* single column on mobile */
+    max-width: 100%;
+    height: 180px;
+  }
+}
+

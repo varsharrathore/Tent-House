@@ -1,0 +1,28 @@
+.footer{
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
+
+.footer ul li {
+  margin-bottom: 6px;
+}
+
+.faFacebook,
+.faTwitter {
+  height: 3vh;
+  color: rgb(32, 138, 203);
+  margin-right: 5px;
+}
+
+.faInstagram {
+  height: 3vh;
+  color: rgb(199, 94, 152);
+  margin-right: 5px;
+}
+
+.faPhone,
+.faEnvelope,
+.faLocationDot {
+  color: #82680dc7;
+  margin-right: 5px;
+}

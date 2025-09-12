@@ -1,0 +1,21 @@
+.imageTag {
+  height: 50vh;
+  width: 100%;
+  padding: 5px;
+  object-fit: cover;
+  transition: transform 1s ease;
+}
+
+.imageTag:hover {
+  transform: scale(1.1);
+}
+
+.customList {
+  display: inline-flex;
+  padding-left: 0;
+  font-size: 1.1rem;
+}
+
+.customList li {
+  margin: 0 40px;
+}

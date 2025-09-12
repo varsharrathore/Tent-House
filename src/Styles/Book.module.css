@@ -1,0 +1,41 @@
+.containerB {
+    background-color: bisque;
+    padding: 2rem;
+}
+
+.heading {
+    font-family: serif;
+}
+
+.contactHeading {
+    margin-top: 20px;
+}
+
+.faPhone,
+.faEnvelope,
+.faLocationDot {
+    color: #82680dc7;
+    margin-right: 5px;
+}
+
+.formContainer {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.5s;
+}
+
+.formContainer:hover {
+    transform: scale(1.05);
+}
+
+.formGroup {
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.formHeading {
+    font-weight: 650;
+}
