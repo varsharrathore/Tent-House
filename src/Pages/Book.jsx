@@ -1,5 +1,3 @@
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
 import Styles from '../Styles/Book.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
