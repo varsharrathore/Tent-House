@@ -1,5 +1,3 @@
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
 import Faq from "../Components/Faq";
 import Testimonials from "../Components/Testimonials";
 import Styles from '../Styles/Home.module.css';
