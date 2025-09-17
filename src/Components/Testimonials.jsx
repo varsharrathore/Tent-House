@@ -4,12 +4,12 @@ import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 const Testimonials = () => {
   return (
     <div className="container text-center ">
-      <h1 className="text text-warning-emphasis mt-5">What Our Clients Say</h1>
+      <h2 className="text text-warning-emphasis mt-4">What Our Clients Say</h2>
 
       {/* Stars */}
       <div className="mb-3 mt-3">
-        <FontAwesomeIcon icon={faStar} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
-        <FontAwesomeIcon icon={faStar} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
+        <FontAwesomeIcon icon={faStar} style={{ color: "gold", margin: "0 4px" }} />
+        <FontAwesomeIcon icon={faStar} style={{ color: "gold", margin: "0 4px" }} />
         <FontAwesomeIcon icon={faStar} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
         <FontAwesomeIcon icon={faStar} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
         <FontAwesomeIcon icon={faStarHalfAlt} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
@@ -18,7 +18,7 @@ const Testimonials = () => {
 
 
       {/* Testimonials */}
-      <div className="row row-cols-1 row-cols-md-3 fs-5">
+      <div className="row row-cols-1 row-cols-md-3">
         <div className="col-md-4 p-4">
           <div className="testimonial">
             <p>
