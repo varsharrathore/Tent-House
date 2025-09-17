@@ -9,6 +9,13 @@
     font-family: "Bebas-Neue, Raleway, Montserrat";
     font-size: 3.5rem;
 }
+
+.display6 {
+  font-family: serif;
+  font-size: 1rem; 
+  font-weight: 200;
+}
+
 .display5 {
   font-family: serif;
   font-size: 3rem; 
