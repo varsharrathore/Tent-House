@@ -12,8 +12,6 @@
 
 .customList {
   display: inline-flex;
-  padding-left: 0;
-  font-size: 1.1rem;
 }
 
 .customList li {
