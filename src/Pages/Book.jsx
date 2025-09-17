@@ -69,7 +69,10 @@ const Book = () => {
 
               <button
                 type="button"
-                className="btn btn-dark border-warning text-warning opacity-75 mt-5 px-4 py-2"
+                className="btn btn-dark border-warning text-warning opacity-75"
+                 style={{
+                   style="margin: 10px;
+                 }}
                 onClick={() => alert("This is a static form and won't actually submit data.")}>
                 Submit
               </button>
