@@ -15,10 +15,10 @@ const Book = () => {
             <h4 className="text-warning-emphasis opacity-75">
               Creating Magical Moments with Elegant Tents
             </h4>
-            <h2 className={`${Styles.contactHeading} p-3`}>Contact Us</h2>
-            <p className="text fs-5"><FontAwesomeIcon icon={faPhone} className={Styles.faPhone} /> Tele:</p>
-            <p className="text fs-5"><FontAwesomeIcon icon={faEnvelope} className={Styles.faEnvelope} /> Email: contact@example.com</p>
-            <p className="text fs-5"><FontAwesomeIcon icon={faLocationDot} className={Styles.faLocationDot} /> Address: 123 Main St, Vancover, Canada,123456</p>
+            <h2 className="contact p-3">Contact Us</h2>
+            <p className="text"><FontAwesomeIcon icon={faPhone} className={Styles.faPhone} /> Tele:</p>
+            <p className="text"><FontAwesomeIcon icon={faEnvelope} className={Styles.faEnvelope} /> Email: contact@example.com</p>
+            <p className="text"><FontAwesomeIcon icon={faLocationDot} className={Styles.faLocationDot} /> Address: 123 Main St, Vancover, Canada,123456</p>
           </div>
 
           {/* Right Form */}
@@ -69,7 +69,7 @@ const Book = () => {
 
               <button
                 type="button"
-                className="btn btn-dark border-warning text-warning opacity-75 mt-3"
+                className="btn btn-dark border-warning text-warning opacity-75 mt-5 px-4 py-2"
                 onClick={() => alert("This is a static form and won't actually submit data.")}>
                 Submit
               </button>
