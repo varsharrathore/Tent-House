@@ -32,7 +32,7 @@ const Home = () => {
             </h4>
           </div>
 
-          <div className={`col-lg-6 text-left p-4 ${Styles.leftParagraph}`}>
+          <div className="col-lg-6 left-paragraph text-left p-4">
             <p className="border border-2 border-warning p-4">
               "Experience the magic of events with our premium tent house services.
               Elevate your special occasions with exquisite tents that combine elegance
