@@ -27,9 +27,6 @@ const Home = () => {
             <h2 className={`${Styles.display5} text-warning-emphasis`}>
               Welcome to Vintage Tent Rentals
             </h2>
-            <h4 className="text text-warning-emphasis opacity-75">
-              Creating Magical Moments with Elegant Tents
-            </h4>
           </div>
 
           <div className="col-lg-6 left-paragraph text-left p-4">
