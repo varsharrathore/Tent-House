@@ -1,5 +1,6 @@
 .containerB {
     background-color: bisque;
+    padding: 2rem;
 }
 .containerB .form{
     margin: 30px auto;
