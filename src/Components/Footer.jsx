@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
 
             <div className="col-md-3">
-              <h4>Social Media</h4>
+              <h5>Social Media</h5>
               <ul>
                 <li>
                   <FontAwesomeIcon icon={faFacebook} className={styles.faFacebook} />
