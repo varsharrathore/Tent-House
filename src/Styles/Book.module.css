@@ -1,16 +1,12 @@
 .containerB {
     background-color: bisque;
-    padding: 2rem;
+    padding: 2%;
 }
 
 .heading {
   font-family: serif;
   font-size: 3rem; 
   font-weight: 400;
-}
-
-.contactHeading {
-    margin-top: 20px;
 }
 
 .faPhone,
