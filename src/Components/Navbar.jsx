@@ -9,7 +9,7 @@ const Navbar = () => {
         <img
         src="/logo.png"
         alt="Vintage Tent Logo"
-        style={{ height: "20px", marginRight: "10px" }}
+        style={{ height: "22px", marginRight: "10px" }}
       />
         Vintage Tent
         </Link>
