@@ -9,12 +9,12 @@ const Book = () => {
         <div className="row">
           {/* Left Content */}
           <div className="col-md-6 p-5 text-left">
-            <h2 className={`display-4 text-warning-emphasis ${Styles.heading}`}>
+            <h2 className={`display-5 text-warning-emphasis ${Styles.heading}`}>
               Welcome to Vintage Tent Rentals
             </h2>
-            <h2 className="text-warning-emphasis opacity-75">
+            <h4 className="text-warning-emphasis opacity-75">
               Creating Magical Moments with Elegant Tents
-            </h2>
+            </h4>
             <h2 className={`${Styles.contactHeading} p-3`}>Contact Us</h2>
             <p className="text fs-5"><FontAwesomeIcon icon={faPhone} className={Styles.faPhone} /> Tele:</p>
             <p className="text fs-5"><FontAwesomeIcon icon={faEnvelope} className={Styles.faEnvelope} /> Email: contact@example.com</p>
@@ -22,10 +22,10 @@ const Book = () => {
           </div>
 
           {/* Right Form */}
-          <div className={`col-md-6 col-lg-4 ${Styles.formContainer}`}>
-            <h2 className={`text-center text-black opacity-50 py-3 ${Styles.formHeading}`}>
+          <div className="form col-md-6 col-lg-4 text-md-right rounded">
+            <h3 className="head text-center text-black opacity-50 py-3">
               Booking Form
-            </h2>
+            </h3>
             <form>
               <div className={Styles.formGroup}>
                 <label htmlFor="name">Name:</label>
@@ -69,7 +69,7 @@ const Book = () => {
 
               <button
                 type="button"
-                className="btn btn-dark border-warning text-warning opacity-75 mt-3 fs-5"
+                className="btn btn-dark border-warning text-warning opacity-75 mt-3"
                 onClick={() => alert("This is a static form and won't actually submit data.")}>
                 Submit
               </button>
