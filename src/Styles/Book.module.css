@@ -7,10 +7,6 @@
     font-family: serif;
 }
 
-.contactHeading {
-    margin-top: 20px;
-}
-
 .faPhone,
 .faEnvelope,
 .faLocationDot {
@@ -30,10 +26,6 @@
 }
 
 .formGroup {
-    margin-bottom: 15px;
-    font-size: large;
+   padding: 3px;
 }
 
-.formHeading {
-    font-weight: 650;
-}
