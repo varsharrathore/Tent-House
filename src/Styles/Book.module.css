@@ -4,7 +4,9 @@
 }
 
 .heading {
-    font-family: serif;
+  font-family: serif;
+  font-size: 3rem; 
+  font-weight: 400;
 }
 
 .contactHeading {
