@@ -118,28 +118,28 @@ const Home = () => {
         <div className="container">
           <h3 className={`${Styles.display5} text-warning-emphasis`}>Our Services</h3>
           <div className="row row-cols-1 row-cols-md-2">
-            <div className="col p-3">
+            <div className="col p-2">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
                   <a className="card-title text-decoration-none" href="/Services">Wedding and Tents</a>
                 </div>
               </div>
             </div>
-            <div className="col p-3">
+            <div className="col p-2">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
                   <a className="card-title text-decoration-none" href="/Services">Lighting and Sound</a>
                 </div>
               </div>
             </div>
-            <div className="col p-3">
+            <div className="col p-2">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
                   <a className="card-title text-decoration-none" href="/Services">Decor</a>
                 </div>
               </div>
             </div>
-            <div className="col p-3">
+            <div className="col p-2">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
                   <a className="card-title text-decoration-none" href="/Services">Something else here</a>
@@ -147,7 +147,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <a className="btn btn-dark border-warning text-warning opacity-75 mt-4 px-4 py-2" href="/Book" role="button">Book Now</a>
+          <a className="btn btn-dark border-warning text-warning opacity-75 mt-2 px-2 py-2" href="/Book" role="button">Book Now</a>
         </div>
       </div>
       <Testimonials />
