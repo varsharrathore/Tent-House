@@ -11,7 +11,7 @@ const Gallery = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="container bg-black opacity-75 text-warning-emphasis py-2">
+        <div className="container bg-black opacity-75 text-warning-emphasis">
           <h1 className={Styles.display4}>Welcome to Vintage Tent Rentals</h1>
           <h3>Creating Magical Moments with Elegant Tents</h3>
         </div>
