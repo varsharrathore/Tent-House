@@ -1,6 +1,5 @@
 .containerB {
     background-color: bisque;
-    padding: 2%;
 }
 
 .heading {
@@ -16,6 +15,7 @@
 }
 
 .formContainer {
+    flex: 0 0 50%;
     margin: 30px auto;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.45);
