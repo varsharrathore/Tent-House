@@ -2,7 +2,7 @@ const Faq = () => {
   return (
     <div className="body" style={{ backgroundColor: "bisque", padding: "2%" }}>
       <div className="container">
-        <h2 className="text-center text-warning-emphasis mb-3">FAQs</h2>
+        <h2 className="text-center text-warning-emphasis">FAQs</h2>
         <div className="accordion bg-black rounded" id="faqAccordion">
 
           {/* FAQ Item 1 */}
