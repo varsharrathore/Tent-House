@@ -8,7 +8,7 @@ import styles from "../Styles/Footer.module.css";
 const Footer = () => {
   return (
     <>
-      <footer className={`${styles.footer} bg-dark text-white-50 py-3`}>
+      <footer className={`${styles.footer} bg-dark text-white-50 py-2`}>
         <div className="container">
           <div className="row row-cols-2">
             <div className="col-md-3">
@@ -16,7 +16,7 @@ const Footer = () => {
                 <img
         src="/logo.png"
         alt="Vintage Tent Logo"
-        style={{ height: "25px", marginRight: "10px" }}
+        style={{ height: "22px", marginRight: "10px" }}
       />
                 Vintage Tent</h5>
               <ul>
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
 
             <div className="col-md-3">
-              <h5>Social Media</h5>
+              <h4>Social Media</h4>
               <ul>
                 <li>
                   <FontAwesomeIcon icon={faFacebook} className={styles.faFacebook} />
