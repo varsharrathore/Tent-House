@@ -23,7 +23,7 @@ const Book = () => {
 
           {/* Right Form */}
           <div className={`col-md-6 col-lg-4 text-md-right rounded ${Styles.formContainer}`}>
-            <h3 className="head text-center text-black opacity-50 py-2">
+            <h3 className="head text-center text-black opacity-50">
               Booking Form
             </h3>
             <form>
