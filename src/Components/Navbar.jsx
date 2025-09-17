@@ -9,7 +9,7 @@ const Navbar = () => {
         <img
         src="/logo.png"
         alt="Vintage Tent Logo"
-        style={{ height: "25px", marginRight: "10px" }}
+        style={{ height: "20px", marginRight: "10px" }}
       />
         Vintage Tent
         </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
           </ul>
 
           {/* Book Now button */}
-          <Link className="btn btn-dark border-warning text-warning opacity-75 fs-5" to="/book">Book Now</Link>
+          <Link className="btn btn-dark border-warning text-warning opacity-75" to="/book">Book Now</Link>
         </div>
       </div>
     </nav>
