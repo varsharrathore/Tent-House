@@ -8,8 +8,8 @@ const Testimonials = () => {
 
       {/* Stars */}
       <div className="mb-3 mt-3">
-        <FontAwesomeIcon icon={faStar} style={{ color: "gold", margin: "0 4px" }} />
-        <FontAwesomeIcon icon={faStar} style={{ color: "gold", margin: "0 4px" }} />
+        <FontAwesomeIcon icon={faStar} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
+        <FontAwesomeIcon icon={faStar} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
         <FontAwesomeIcon icon={faStar} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
         <FontAwesomeIcon icon={faStar} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
         <FontAwesomeIcon icon={faStarHalfAlt} style={{ color: "gold", fontSize: "2rem", margin: "0 4px" }} />
