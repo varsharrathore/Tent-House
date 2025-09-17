@@ -25,18 +25,18 @@
 .faUsersGear {
   font-size: 4rem;
   height: 15vh;
-  margin: 0 155px;
+  margin-bottom: 10px;
 }
 
 .faHandshake {
   font-size: 4.5rem;
   height: 15vh;
-  margin: 0 155px;
+  margin-bottom: 10px;
 }
 
 .faMedal {
   font-size: 4.5rem;
-  height: 15vh;
-  margin: 0 155px;
+  height: 12vh;
+  margin-bottom: 10px;
 }
 
