@@ -59,7 +59,7 @@ const Home = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="row row-cols-1 row-cols-md-3 g-4 pb-3">
+      <div className="row row-cols-1 row-cols-md-3 g-4 pb-4">
         {/* Card 1 */}
         <div className="col d-flex flex-column align-items-center">
           <FontAwesomeIcon icon={faUsers} className={Styles.faUsersGear} />
@@ -147,7 +147,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <a className="btn btn-dark border-warning text-warning opacity-75" href="/Book" role="button">Book Now</a>
+          <a className="btn btn-dark border-warning text-warning opacity-75 mt-4 px-4 py-2" href="/Book" role="button">Book Now</a>
         </div>
       </div>
       <Testimonials />
