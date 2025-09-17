@@ -22,10 +22,10 @@ const Gallery = () => {
 
           {/* Flooring Gallery */}
           <div className="col p-4">
-            <div className="card h-100 position-relative">
-              <img src="/Pictures/stage.png" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Flooring" />
+            <div className="card h-100">
+              <img src="/Pictures/stage.png" className="card-img-top" style={{ height: "52vh"}} alt="Flooring" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#flooringModal">
                   Flooring Gallery
@@ -57,7 +57,7 @@ const Gallery = () => {
             <div className="card h-100 position-relative">
               <img src="/Pictures/marquee tent 1.jpeg" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Marquee" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#marqueeModal">
                   Marquee Tents
@@ -88,7 +88,7 @@ const Gallery = () => {
             <div className="card h-100 position-relative">
               <img src="/Pictures/wedding2.jpg" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Wedding" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#weddingModal">
                   Wedding Gallery
@@ -120,7 +120,7 @@ const Gallery = () => {
             <div className="card h-100 position-relative">
               <img src="/Pictures/birthday.jpeg" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Birthday" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#birthdayModal">
                   Birthday Gallery
@@ -154,7 +154,7 @@ const Gallery = () => {
             <div className="card h-100 position-relative">
               <img src="/Pictures/reception.jpg" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Reception" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#receptionModal">
                   Reception
@@ -187,7 +187,7 @@ const Gallery = () => {
             <div className="card h-100 position-relative">
               <img src="/Pictures/decor.jpg" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Decor" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#decorModal">
                   Decoration
@@ -220,7 +220,7 @@ const Gallery = () => {
             <div className="card h-100 position-relative">
               <img src="/Pictures/concert.jpg" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Concert" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#concertModal">
                   Concerts
@@ -251,7 +251,7 @@ const Gallery = () => {
             <div className="card h-100 position-relative">
               <img src="/Pictures/chair.jpg" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Tables" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#tablesModal">
                   Tables & Chairs
@@ -282,7 +282,7 @@ const Gallery = () => {
             <div className="card h-100 position-relative">
               <img src="/Pictures/tent1.jpg" className="card-img-top" style={{ height: "52vh", objectFit: "cover" }} alt="Tent" />
               <div className="card-img-overlay d-flex justify-content-center align-items-end">
-                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 fs-5 mb-3"
+                <button type="button" className="btn btn-dark border-warning text-warning opacity-75 mb-3"
                   data-bs-toggle="modal"
                   data-bs-target="#miscModal">
                   Miscellaneous
@@ -310,10 +310,10 @@ const Gallery = () => {
 
         </div>
       </div>
-      <h3 className="text text-warning-emphasis d-flex flex-column flex-md-row align-items-center gap-3">
+      <h4 className="text text-warning-emphasis d-flex flex-column flex-md-row align-items-center">
         Creating Magical Moments with Elegant Tents
-        <Link className="btn btn-dark border-warning text-warning fs-5" to="/book">Book Now</Link>
-      </h3>
+        <Link className="btn btn-dark border-warning text-warning" to="/book">Book Now</Link>
+      </h4>
     </>
   );
 };
