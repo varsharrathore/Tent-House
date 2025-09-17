@@ -59,7 +59,7 @@ const Home = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="row row-cols-1 row-cols-md-3 g-4 pb-5">
+      <div className="row row-cols-1 row-cols-md-3 g-4 pb-3">
         {/* Card 1 */}
         <div className="col d-flex flex-column align-items-center">
           <FontAwesomeIcon icon={faUsers} className={Styles.faUsersGear} />
@@ -121,33 +121,33 @@ const Home = () => {
             <div className="col p-3">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
-                  <a className="card-title text-decoration-none fs-4" href="/Services">Wedding and Tents</a>
+                  <a className="card-title text-decoration-none" href="/Services">Wedding and Tents</a>
                 </div>
               </div>
             </div>
             <div className="col p-3">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
-                  <a className="card-title text-decoration-none fs-4" href="/Services">Lighting and Sound</a>
+                  <a className="card-title text-decoration-none" href="/Services">Lighting and Sound</a>
                 </div>
               </div>
             </div>
             <div className="col p-3">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
-                  <a className="card-title text-decoration-none fs-4" href="/Services">Decor</a>
+                  <a className="card-title text-decoration-none" href="/Services">Decor</a>
                 </div>
               </div>
             </div>
             <div className="col p-3">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
-                  <a className="card-title text-decoration-none fs-4" href="/Services">Something else here</a>
+                  <a className="card-title text-decoration-none" href="/Services">Something else here</a>
                 </div>
               </div>
             </div>
           </div>
-          <a className="btn btn-dark border-warning text-warning opacity-75 mt-5 fs-5 px-4 py-2" href="/Book" role="button">Book Now</a>
+          <a className="btn btn-dark border-warning text-warning opacity-75" href="/Book" role="button">Book Now</a>
         </div>
       </div>
       <Testimonials />
