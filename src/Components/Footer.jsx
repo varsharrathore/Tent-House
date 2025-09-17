@@ -12,13 +12,13 @@ const Footer = () => {
         <div className="container">
           <div className="row row-cols-2">
             <div className="col-md-3">
-              <h4>
+              <h5>
                 <img
         src="/logo.png"
         alt="Vintage Tent Logo"
         style={{ height: "25px", marginRight: "10px" }}
       />
-                Vintage Tent</h4>
+                Vintage Tent</h5>
               <ul>
                 <li><Link className="text text-decoration-none text-white-50" to="/">Home</Link></li>
                 <li><Link className="text text-decoration-none text-white-50" to="/Gallery">Gallery</Link></li>
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div className="col-md-3">
-              <h4>Events</h4>
+              <h5>Events</h5>
               <ul>
                 <li><Link className="text text-decoration-none text-white-50" to="/Services">Wedding</Link></li>
                 <li><Link className="text text-decoration-none text-white-50" to="/Services">Festivals</Link></li>
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
 
             <div className="col-md-3">
-              <h4>Social Media</h4>
+              <h5>Social Media</h5>
               <ul>
                 <li>
                   <FontAwesomeIcon icon={faFacebook} className={styles.faFacebook} />
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
 
             <div className="col-md-3">
-              <h4>Contact Us</h4>
+              <h5>Contact Us</h5>
               <p><FontAwesomeIcon icon={faPhone} className={styles.faPhone} /> Tele:</p>
               <p><FontAwesomeIcon icon={faEnvelope} className={styles.faEnvelope} /> Email: contact@example.com</p>
               <p><FontAwesomeIcon icon={faLocationDot} className={styles.faLocationDot} /> Address: 123 Main St, Vancover, Canada,123456</p>
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </footer>
 
-      <div className="copyright bg-black text-warning-emphasis text-center fs-5" style={{ padding: "0px" }}>
+      <div className="copyright bg-black text-warning-emphasis text-center" style={{ padding: "0px" }}>
         <p style={{ margin: "0" }}>
           &copy; 2025 Vintage Tent Rentals.Ltd | Website Designed by Varsha Rrathore
         </p>
