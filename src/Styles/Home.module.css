@@ -1,7 +1,4 @@
 .containerBg {
-    /* background-image: url('/Pictures/wallpaper.jpg'); 
-    background-size: cover;
-    background-position: center; */
     color: white;
     text-align: center;
     padding: 100px 0;
@@ -10,45 +7,36 @@
 
 .display4 {
     font-family: "Bebas-Neue, Raleway, Montserrat";
-    font-size: 4rem;
 }
 .display5 {
-  font-family: serif; 
-  font-size: 3.5rem; 
-  font-weight: 400;
+  font-family: serif;
 }
 
-.leftParagraph {
+/* .leftParagraph {
   font-family: serif;
   font-size: 1.3rem;
   line-height: 1.4;
 }
-
+ */
 .containerBgl {
-  /* background-image: url("/Pictures/tent.jpg");
-  background-size: cover;
-  background-position: center; */
   color: white;
   text-align: center;
-  height: 65vh;
+  height: 75vh;
   width: 100vw;
 }
 
 .faUsersGear {
   font-size: 4rem;
   height: 15vh;
-  margin-bottom: 10px;
 }
 
 .faHandshake {
   font-size: 4.5rem;
   height: 15vh;
-  margin-bottom: 10px;
 }
 
 .faMedal {
   font-size: 4.5rem;
   height: 15vh;
-  margin-bottom: 10px;
 }
 
