@@ -24,7 +24,7 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col text-right p-5 d-md-none">
-            <h2 className={`${Styles.display5} text-warning-emphasis`}>
+            <h2 className="text-warning-emphasis">
               Welcome to Vintage Tent Rentals
             </h2>
           </div>
