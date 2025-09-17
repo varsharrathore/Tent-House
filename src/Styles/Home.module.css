@@ -7,7 +7,7 @@
 
 .display4 {
     font-family: "Bebas-Neue, Raleway, Montserrat";
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 .display5 {
   font-family: serif;
@@ -35,8 +35,8 @@
 }
 
 .faMedal {
-  font-size: 4.5rem;
-  height: 12vh;
+  font-size: 4rem;
+  height: 15vh;
   margin-bottom: 10px;
 }
 
