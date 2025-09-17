@@ -8,7 +8,7 @@ const Book = () => {
       <div className={Styles.containerB}>
         <div className="row">
           {/* Left Content */}
-          <div className="col-md-6 p-5 text-left">
+          <div className="col-md-6 p-4 text-left">
             <h2 className={`display-5 text-warning-emphasis ${Styles.heading}`}>
               Welcome to Vintage Tent Rentals
             </h2>
@@ -23,7 +23,7 @@ const Book = () => {
 
           {/* Right Form */}
           <div className={`col-md-6 col-lg-4 text-md-right rounded ${Styles.formContainer}`}>
-            <h3 className="head text-center text-black opacity-50 py-3">
+            <h3 className="head text-center text-black opacity-50 py-2">
               Booking Form
             </h3>
             <form>
