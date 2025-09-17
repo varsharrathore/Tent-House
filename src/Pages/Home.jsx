@@ -27,7 +27,7 @@ const Home = () => {
             <h2 className={`${Styles.display5} text-warning-emphasis`}>
               Welcome to Vintage Tent Rentals
             </h2>
-            <h4 className="text text-warning-emphasis fs-2 opacity-75">
+            <h4 className="text text-warning-emphasis opacity-75">
               Creating Magical Moments with Elegant Tents
             </h4>
           </div>
@@ -51,7 +51,7 @@ const Home = () => {
             <h2 className={`${Styles.display5} text-warning-emphasis`}>
               Welcome to Vintage Tent Rentals
             </h2>
-            <h4 className="text text-warning-emphasis fs-2 opacity-75">
+            <h4 className="text text-warning-emphasis opacity-75">
               Creating Magical Moments with Elegant Tents
             </h4>
           </div>
