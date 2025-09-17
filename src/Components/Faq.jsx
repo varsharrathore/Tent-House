@@ -2,7 +2,7 @@ const Faq = () => {
   return (
     <div className="body" style={{ backgroundColor: "bisque", padding: "2%" }}>
       <div className="container">
-        <h1 className="text-center text-warning-emphasis mb-3">FAQs</h1>
+        <h2 className="text-center text-warning-emphasis mb-3">FAQs</h2>
         <div className="accordion bg-black rounded" id="faqAccordion">
 
           {/* FAQ Item 1 */}
@@ -11,7 +11,6 @@ const Faq = () => {
               <h2 className="mb-0">
                 <button
                   className="btn collapsed"
-                  style={{ fontSize: "1.3rem" }}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
@@ -40,7 +39,6 @@ const Faq = () => {
               <h2 className="mb-0">
                 <button
                   className="btn collapsed"
-                  style={{ fontSize: "1.3rem" }}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
@@ -69,7 +67,6 @@ const Faq = () => {
               <h2 className="mb-0">
                 <button
                   className="btn collapsed"
-                  style={{ fontSize: "1.3rem" }}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseThree"
@@ -98,7 +95,6 @@ const Faq = () => {
               <h2 className="mb-0">
                 <button
                   className="btn collapsed"
-                  style={{ fontSize: "1.3rem" }}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseFour"
@@ -127,7 +123,6 @@ const Faq = () => {
               <h2 className="mb-0">
                 <button
                   className="btn collapsed"
-                  style={{ fontSize: "1.3rem" }}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseFive"
@@ -156,7 +151,6 @@ const Faq = () => {
               <h2 className="mb-0">
                 <button
                   className="btn collapsed"
-                  style={{ fontSize: "1.3rem" }}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseSix"
@@ -185,7 +179,6 @@ const Faq = () => {
               <h2 className="mb-0">
                 <button
                   className="btn collapsed"
-                  style={{ fontSize: "1.3rem" }}
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseSeven"
