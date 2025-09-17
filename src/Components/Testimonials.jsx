@@ -19,7 +19,7 @@ const Testimonials = () => {
 
       {/* Testimonials */}
       <div className="row row-cols-1 row-cols-md-3">
-        <div className="col-md-4 p-4">
+        <div className="col-md-4 p-3">
           <div className="testimonial">
             <p>
               "Tent House Paradise made my wedding day truly special. Their
@@ -31,7 +31,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="col-md-4 p-4">
+        <div className="col-md-4 p-3">
           <div className="testimonial">
             <p>
               "The team's creativity and professionalism exceeded my
@@ -43,7 +43,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="col-md-4 p-4">
+        <div className="col-md-4 p-3">
           <div className="testimonial">
             <p>
               "Tent Haven's attention to detail, flexibility, and creative setup
