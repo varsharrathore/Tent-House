@@ -27,7 +27,7 @@ const Home = () => {
             <h2 className={`${Styles.display5} text-warning-emphasis`}>
               Welcome to Vintage Tent Rentals
             </h2>
-            <h4 className="text text-warning-emphasis opacity-75">
+            <h4 className="text text-warning-emphasis fs-2 opacity-75">
               Creating Magical Moments with Elegant Tents
             </h4>
           </div>
@@ -51,7 +51,7 @@ const Home = () => {
             <h2 className={`${Styles.display5} text-warning-emphasis`}>
               Welcome to Vintage Tent Rentals
             </h2>
-            <h4 className="text text-warning-emphasis opacity-75">
+            <h4 className="text text-warning-emphasis fs-2 opacity-75">
               Creating Magical Moments with Elegant Tents
             </h4>
           </div>
@@ -59,11 +59,11 @@ const Home = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="row row-cols-1 row-cols-md-3 g-4">
+      <div className="row row-cols-1 row-cols-md-3 g-4 pb-5">
         {/* Card 1 */}
-        <div className="col">
+        <div className="col d-flex flex-column align-items-center">
           <FontAwesomeIcon icon={faUsers} className={Styles.faUsersGear} />
-          <div className="card">
+          <div className="card flex-grow-1 w-100">
             <div className="card-body border border-success">
               <h5 className="card-title text-success text-center">Authenticity</h5>
               <hr className="border border-success" />
@@ -76,9 +76,9 @@ const Home = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="col">
+        <div className="col d-flex flex-column align-items-center">
           <FontAwesomeIcon icon={faMedal} className={Styles.faMedal} />
-          <div className="card">
+          <div className="card flex-grow-1 w-100">
             <div className="card-body border border-success">
               <h5 className="card-title text-success text-center">Quality</h5>
               <hr className="border border-success" />
