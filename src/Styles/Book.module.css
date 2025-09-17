@@ -7,6 +7,10 @@
     font-family: serif;
 }
 
+.contactHeading {
+    margin-top: 20px;
+}
+
 .faPhone,
 .faEnvelope,
 .faLocationDot {
