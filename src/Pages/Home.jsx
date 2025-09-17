@@ -23,8 +23,8 @@ const Home = () => {
       {/* Intro + Experience Section */}
       <div className="container">
         <div className="row">
-          <div className="col text-right p-5 d-md-none">
-            <h2 className="text-warning-emphasis fs-2">
+          <div className="col text-right p-2 d-md-none">
+            <h2 className={`${Styles.display6} text-warning-emphasis`}>
               Welcome to Vintage Tent Rentals
             </h2>
           </div>
