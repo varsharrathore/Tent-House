@@ -118,21 +118,21 @@ const Home = () => {
             <div className="col p-2">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
-                  <a className="card-title text-decoration-none" href="/Services">Wedding and Tents</a>
+                  <a className="card-title text-decoration-none" href="/Services#marquee-tents">Marquee Tents</a>
                 </div>
               </div>
             </div>
             <div className="col p-2">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
-                  <a className="card-title text-decoration-none" href="/Services">Lighting and Sound</a>
+                  <a className="card-title text-decoration-none" href="/Services#decor">Decor</a>
                 </div>
               </div>
             </div>
             <div className="col p-2">
               <div className="card border-warning opacity-75 border-4">
                 <div className="card-body">
-                  <a className="card-title text-decoration-none" href="/Services">Decor</a>
+                  <a className="card-title text-decoration-none" href="/Services#table-chair">Table And Chair</a>
                 </div>
               </div>
             </div>
