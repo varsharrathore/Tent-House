@@ -49,7 +49,7 @@ const Services = () => {
               className={Styles.imageTag}
               alt="Marquee Tent" />
           </div>
-          <div className="col-lg-6 left-paragraph text-left p-4">
+          <div className="col-lg-6 left-paragraph text-left p-4" id="marquee-tents">
             <h2 className="text-warning-emphasis text-center">Marquee Tents </h2>
             <p>
               Marquee tents are the epitome of versatility and elegance in event hosting. These spacious and stylish structures offer a blank canvas for your imagination, allowing you to create unforgettable gatherings, from weddings to corporate functions. With their sturdy construction and weather-resistant features, marquee tents ensure your event is sheltered from the elements without compromising on aesthetics. Their airy interiors and open design provide ample room for creativity in layout and decor, making them the ideal choice for crafting unique and memorable experiences. Elevate your event with the timeless charm and adaptability of our marquee tents.</p>
@@ -70,7 +70,7 @@ const Services = () => {
               className={Styles.imageTag}
               alt="Lighting and Decor" />
           </div>
-          <div className="col-lg-6 right-paragraph text-left p-4">
+          <div className="col-lg-6 right-paragraph text-left p-4" id="decor">
             <h2 className="text-warning-emphasis text-center">Lighting, Sound and Decor</h2>
             <p>
               In the world of tent house business, our expertise extends beyond mere structures. We specialize in transforming spaces through impeccable lighting, immersive sound, and captivating decor. Our lighting designs enhance the ambiance, creating a magical atmosphere that captivates guests. With our state-of-the-art sound systems, every word spoken and note played is crystal clear, elevating the experience. From elegant drapery to personalized decor, we infuse creativity into every corner, ensuring your event is a masterpiece of sight and sound.</p>
@@ -110,7 +110,7 @@ const Services = () => {
               className={Styles.imageTag}
               alt="Table and Chair" />
           </div>
-          <div className="col-lg-6 right-paragraph text-left p-4">
+          <div className="col-lg-6 right-paragraph text-left p-4" id="table-chair">
             <h2 className="text-warning-emphasis text-center">Table and Chair</h2>
             <ul className={Styles.customList}>
               <li>Plastic Chairs</li>
